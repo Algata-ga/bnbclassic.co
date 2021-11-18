@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 body{
     width: 100vw;
@@ -40,7 +41,7 @@ body{
     align-self: center;
     text-align: center;
     flex-direction: column;
-    background-color: green;
+    background: red;
 }
 .main h1,.main p{
     margin: 0px 50px;
@@ -48,7 +49,6 @@ body{
 .roller{
     height: 60px;
     width: 100vw;
-    background-color: red;
     position: absolute;
     bottom: 0;
     display: flex;
@@ -60,7 +60,6 @@ body{
 
 /*address*/
 .address{
-    height: 25vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,7 +67,7 @@ body{
     flex-direction: column;
 }
 .address h4{
-    margin: 10px 0;
+    margin: 30px 0;
 }
 .address h5{
     margin: 20px 0;
@@ -81,14 +80,41 @@ body{
     height: 35px;
     border: 1px solid #f3ba2f;
     border-radius: 5px;
-    margin: 0 20px;
+    margin: 10px 20px;
 }
 .address .buttons button:hover{
     background: #f3ba2f;
 }
 .address .buttons .buy{
     background: #f3ba2f !important;
+    margin: 10px 0;
 }
+
+/*working*/
+.working{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.para{
+    margin: 0px 10px;
+}
+.steps{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pancake{
+    height: max-content;
+    width: 70%;
+    background-color: #e6e6e6;
+    padding: 10px 10px;
+    margin: 20px 0;
+}
+
+
 
 
 
@@ -114,6 +140,12 @@ body{
     
 }
 
+@media (max-width:650px) {
+    .pancake p{
+        font-size: .6rem;
+    }
+}
+
 @media (max-width:550px) {
     .navbar .container-fluid{
         margin: 0px 20px;
@@ -121,4 +153,5 @@ body{
     .navbar-brand p{
         display: none;
     }
+    
 }
