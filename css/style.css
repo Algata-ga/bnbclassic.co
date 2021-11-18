@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+.navbar .container-fluid{
+    margin: 0px 40px;
+}
+.download1,.download2{
+    margin-right: 20px;
+    border: 3px solid #f3ba2f;
+    width: 130px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.navbar-brand{
+    display: flex;
+    align-items: center;
+}
+.navbar-brand img{
+    margin-right: 6px;
+}
+.navbar-brand p{
+    margin-bottom: .5rem;
+}
+
+
+
+/*main*/
+.main{
+    height: calc( 90.9vh);
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: green;
+}
+.main h1,.main p{
+    margin: 0px 50px;
+}
+.roller{
+    height: 60px;
+    width: 100vw;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*address*/
+.address{
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.address h4{
+    margin: 10px 0;
+}
+.address h5{
+    margin: 20px 0;
+}
+.address .buttons{
+    margin: 20px 0;
+}
+.address .buttons button{
+    width: 130px;
+    height: 35px;
+    border: 1px solid #f3ba2f;
+    border-radius: 5px;
+    margin: 0 20px;
+}
+.address .buttons button:hover{
+    background: #f3ba2f;
+}
+.address .buttons .buy{
+    background: #f3ba2f !important;
+}
+
+
+
+@media (min-width:992px) {
+    .download1{
+        display: none;
+    }
+    .download2::before { 
+        content: "";
+        background-color: black;
+        height: 30px;
+        width: 1px;
+        position: relative;
+        font-weight: bold;
+        right: 30px;
+      }
+}
+
+@media (max-width:992px) {
+    .download2{
+        display: none;
+    }
+    
+}
+
+@media (max-width:550px) {
+    .navbar .container-fluid{
+        margin: 0px 20px;
+    }
+    .navbar-brand p{
+        display: none;
+    }
+}
