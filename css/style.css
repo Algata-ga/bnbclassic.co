@@ -6,6 +6,10 @@
 body{
     width: 100vw;
     overflow-x: hidden;
+    text-transform: capitalize;
+}
+.bg-light{
+    background: white !important;
 }
 .navbar .container-fluid{
     margin: 0px 40px;
@@ -100,19 +104,253 @@ body{
     margin: 0px 10px;
 }
 .steps{
+    width: 80%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.steps .heading{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.div1{
+    background: linear-gradient(180deg, #24C7D6 0%, #3ED2DB 100%);
+    position: absolute;
+    left: 7%;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div2{
+    background: #e4e4e4;
+    width: fit-content;
+    height: 100px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div3{
+    background: linear-gradient(180deg, #24C7D6 0%, #3ED2DB 100%);
+    position: absolute;
+    right: 7%;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div4{
+    background: #e4e4e4;
+    width: fit-content;
+    height: 100px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div2 p,.div4 p{
+    max-width: 70%;
+    margin-bottom: 0;
+}
+.div4 p{
+    margin-left: 5.5rem !important;
+}
+.div2 p{
+    margin-right: 5.5rem !important;
+}
+.div1,.div3 .fas{
+    font-size: 3rem;
+    color: #000;
+}
+
+
+/*bnbc*/
+.bnbc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+.desc{
+    width: 80%;
+}
+.desc h5,.desc h2{
+    max-width: 20px 0px;
+}
+.desc p{
+    margin: 20px 0px;
+    font-size: 18px;
+}
+
+
+.bank{
+    width: 90%;
+    margin-top: 5rem;
+    display: flex;
+}
+.bank .schart{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bank .content{
+    width: 60%;
+    padding: 10px 10px;
+    font-size: 15px;
+}
+
+
+
+/*tokenomics*/
+.tokenomics{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.tokenomics .cont{
+    width: 80%;
+    font-size: 18px;
+}
+.tokenomics .sub{
     margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.tokenomics .boxes{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.tokenomics .boxes .box{
+    background: rgb(233, 233, 233);
+    margin: 1rem 0px;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 25px;
+}
+.tokenomics .boxes .box .clipart{
+    width: 15%;
+}
+.tokenomics .boxes .box .content {
+    width: 85%;
+}
+.tokenomics .boxes .box .content p{
+
+    margin-bottom: 0;
+}
+
+
+/*white papr*/
+.whitepaper{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background: #f4f4f4;
+}
+.whitepaper image{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whitepaper .download{
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.pancake{
-    height: max-content;
-    width: 70%;
-    background-color: #e6e6e6;
-    padding: 10px 10px;
-    margin: 20px 0;
+.btnpaper{
+    width: 150px;
+    height: 40px;
+    border: 1px solid #3ED2DB;
+    background: white;
+    border-radius: 5px;
+    margin: 10px 20px;
 }
+
+
+
+/*roadmap*/
+.roadmap{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    background: white;
+}
+.roadmap .content{
+    max-width: 80%;
+    margin-bottom: 2rem;
+}
+
+
+/*faq*/
+.faq{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background: white;
+}
+.questions{
+    width: 90%;
+    display: flex;
+
+    flex-direction: column;
+}
+.question{
+    height: 200px;
+    background: #f6f6f6;
+    border-radius: 25px;
+    padding: 10px 10px;
+}
+.clip{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/*footer*/
+
+
+
+
+
 
 
 
@@ -131,18 +369,42 @@ body{
         font-weight: bold;
         right: 30px;
       }
+      .div2 p,.div4 p{
+        font-size: .9rem;
+    }
 }
 
 @media (max-width:992px) {
     .download2{
         display: none;
     }
+    .div2 p,.div4 p{
+        font-size: .8rem;
+    }
     
+    
+}
+@media (max-width:768px) {
+    .div2 p,.div4 p{
+        font-size: .7rem;
+    }
+    .box{
+        flex-direction: column;
+    }
+    .div1,.div3{
+        width: 90px;
+        height: 90px;
+    }
+
 }
 
 @media (max-width:650px) {
-    .pancake p{
+    .div2 p,.div4 p{
         font-size: .6rem;
+    }
+    .div1,.div3{
+        width: 80px;
+        height: 80px;
     }
 }
 
@@ -152,6 +414,9 @@ body{
     }
     .navbar-brand p{
         display: none;
+    }
+    .div2 p,.div4 p{
+        font-size: .5rem;
     }
     
 }
