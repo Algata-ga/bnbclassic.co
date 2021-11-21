@@ -563,6 +563,7 @@ h3 {
 }
 .faq h2 {
   text-align: center;
+  max-width: 90%;
 }
 .questions {
   width: 90%;
