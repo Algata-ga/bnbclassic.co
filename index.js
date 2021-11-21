@@ -18,15 +18,15 @@ var x = setInterval(function () {
 
     // Display the result in the element with id="demo"
     document.getElementById("count-down").innerHTML =
-        'Presale starts in <br/><div class="countdown_date"><div>' +
+        "Presale starts in " +
         days +
-        "<br/>Days</div><div> " +
+        " Days " +
         hours +
-        "<br/>Hours</div><div> " +
+        " Hours " +
         minutes +
-        "<br/>Minutes</div><div> " +
+        " Minutes " +
         seconds +
-        "<br/>Seconds</div>";
+        " Seconds";
 
     // If the count down is finished, write some text
     if (distance < 0) {
