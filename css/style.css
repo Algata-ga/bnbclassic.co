@@ -551,6 +551,56 @@ h3 {
     border-radius: 18px;
 }
 
+
+/*team*/
+.team{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.team .row{
+    display: flex;
+    justify-content: center;
+}
+.individual{
+    max-width: 30rem;
+    width: 25rem;
+    height: 300px;
+    background: #e4e4e4;
+    margin: 2rem;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+.profile{
+    
+    width: 12rem;
+    height: 12rem;
+    
+    margin-top: 10px;
+
+}
+.profile img{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    border: 3px solid #24c7d6;
+}
+.team .content{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
 /*faq*/
 .faq {
     width: 100%;
@@ -773,5 +823,8 @@ a:hover {
     .div2 p,
     .div4 p {
         font-size: 0.5rem;
+    }
+    .individual{
+        max-width: 18rem;
     }
 }
