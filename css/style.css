@@ -686,6 +686,9 @@ a:hover {
     .clip img {
         display: none;
     }
+    .address h5 {
+        font-size: 1rem;
+    }
 }
 @media (max-width: 768px) {
     .div2,
@@ -698,6 +701,9 @@ a:hover {
     }
     .box {
         flex-direction: column;
+    }
+    .address h5 {
+        font-size: 0.8rem;
     }
     .div1,
     .div3 {
