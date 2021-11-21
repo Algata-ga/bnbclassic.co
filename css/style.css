@@ -37,8 +37,10 @@ h2 {
 .download2 {
     margin-right: 20px;
     border: 3px solid #f3ba2f;
-    width: 130px;
+    width: fit-content;
     height: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -551,18 +553,17 @@ h3 {
     border-radius: 18px;
 }
 
-
 /*team*/
-.team{
+.team {
     width: 100%;
     height: auto;
     text-align: center;
 }
-.team .row{
+.team .row {
     display: flex;
     justify-content: center;
 }
-.individual{
+.individual {
     max-width: 30rem;
     width: 25rem;
     height: 300px;
@@ -572,34 +573,22 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    
 }
-.profile{
-    
+.profile {
     width: 12rem;
     height: 12rem;
-    
-    margin-top: 10px;
 
+    margin-top: 10px;
 }
-.profile img{
+.profile img {
     width: 12rem;
     height: 12rem;
     border-radius: 50%;
     border: 3px solid #24c7d6;
 }
-.team .content{
+.team .content {
     margin-top: 20px;
 }
-
-
-
-
-
-
-
-
 
 /*faq*/
 .faq {
@@ -824,7 +813,7 @@ a:hover {
     .div4 p {
         font-size: 0.5rem;
     }
-    .individual{
+    .individual {
         max-width: 18rem;
     }
 }
