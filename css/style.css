@@ -132,11 +132,13 @@ h2 {
 }
 .countdown div {
     background-color: blue;
-    display: inline-block;
     width: fit-content;
     height: fit-content;
     margin-left: 45px;
+    margin-right: 45px;
     border-color: white;
+    display: flex;
+    flex-direction: row;
 }
 /*address*/
 
